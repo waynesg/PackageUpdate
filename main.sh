@@ -16,6 +16,7 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
 git clone https://github.com/garypang13/luci-app-bypass
 svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb ./lua-maxminddb
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns ./smartdns
+svn co https://github.com/garypang13/openwrt-packages/trunk/tcping ./tcping
 
 svn co https://github.com/garypang13/luci-app-dnsfilter/trunk ./luci-app-dnsfilter
 
