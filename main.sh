@@ -76,6 +76,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 
 # passwall
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/dns2socks
