@@ -82,6 +82,7 @@ svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/dns2socks
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ipt2socks
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/naiveproxy
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/kcptun
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/openssl1.1
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/shadowsocksr-libev
