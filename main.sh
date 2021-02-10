@@ -18,6 +18,8 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb ./lua-
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns ./smartdns
 svn co https://github.com/garypang13/openwrt-packages/trunk/tcping ./tcping
 
+svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus ./luci-app-ssr-plus
+
 svn co https://github.com/garypang13/luci-app-dnsfilter/trunk ./luci-app-dnsfilter
 
 svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
