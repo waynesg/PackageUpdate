@@ -11,29 +11,34 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 git clone https://github.com/rosywrt/luci-theme-rosy
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
+git clone https://github.com/immortalwrt/luci-theme-tano
 
 # apps
+
+#Bypass
 git clone https://github.com/garypang13/luci-app-bypass
 svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb ./lua-maxminddb
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns ./smartdns
 svn co https://github.com/garypang13/openwrt-packages/trunk/tcping ./tcping
-
+#SSR-PLUS
 svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus ./luci-app-ssr-plus
-
+#DNSfilter
 svn co https://github.com/garypang13/luci-app-dnsfilter/trunk ./luci-app-dnsfilter
-
+#gowedav
 svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
 svn co https://github.com/1715173329/gowebdav/trunk ./gowebdav
-
+#smartinfo
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
-
+#serverchan
 git clone https://github.com/tty228/luci-app-serverchan
-
+#node-request
 svn co https://github.com/jerrykuku/node-request/trunk ./node-request
-
+#autotimeset(自动重启，关机)
+git clone https://github.com/sirpdboy/luci-app-autotimeset
+#docker
 svn co https://github.com/lisaac/luci-app-dockerman/trunk ./luci-app-dockerman
 svn co https://github.com/lisaac/luci-lib-docker/trunk ./luci-lib-docker
-
+#poweroff
 git clone https://github.com/esirplayground/luci-app-poweroff
 
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
@@ -49,8 +54,8 @@ svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
 
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 
-svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
-svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
+svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/luci-app-wrtbwmon-zh
+svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/wrtbwmon
 
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-advanced
 
@@ -60,7 +65,7 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit
 
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser
 
-svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
+#svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
 
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-timewol
 
@@ -72,9 +77,11 @@ git clone https://github.com/godros/luci-app-godproxy
 
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-pptp-vpnserver-manyusers
 
+svn co https://github.com/waynesg/luci-app-ipsec-vpnserver-manyusers
+
 git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git
 
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-syncthing
+#svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-syncthing
 
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 
@@ -163,13 +170,14 @@ luci-app-cpulimit
 luci-app-wrtbwmon-zhcn
 wrtbwmon
 luci-app-advanced
-luci-app-autopoweroff
+#luci-app-autopoweroff
 luci-app-control-timewol
 luci-app-control-weburl
 luci-app-control-webrestriction
 luci-theme-opentopd
 luci-app-godproxy
 luci-app-pptp-vpnserver-manyusers
+luci-app-ipsec-vpnserver-manyusers
 lua-maxminddb
 #install-program
 #openwrt-mentohust
