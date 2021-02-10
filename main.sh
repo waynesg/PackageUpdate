@@ -77,7 +77,7 @@ git clone https://github.com/godros/luci-app-godproxy
 
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-pptp-vpnserver-manyusers
 
-svn co https://github.com/waynesg/luci-app-ipsec-vpnserver-manyusers
+git clone https://github.com/waynesg/luci-app-ipsec-vpnserver-manyusers
 
 git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git
 
