@@ -54,8 +54,8 @@ svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
 
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 
-#svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/luci-app-wrtbwmon-zh
-#svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/wrtbwmon
+svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/luci-app-wrtbwmon-zh
+svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/wrtbwmon
 
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-advanced
 
