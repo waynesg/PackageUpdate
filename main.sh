@@ -54,14 +54,14 @@ svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
 
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 
-svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/luci-app-wrtbwmon-zh
-svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/wrtbwmon
+#svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/luci-app-wrtbwmon-zh
+#svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/wrtbwmon
 
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-advanced
 
-svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit-ng
-svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit
+#svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit-ng
+#svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit
+#svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit
 
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser
 
@@ -105,8 +105,8 @@ svn co https://github.com/xiaorouji/openwrt-passwall/trunk/v2ray
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray-core
 
 #iptv
-svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/luci-app-iptvhelper
-svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/iptvhelper
+#svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/luci-app-iptvhelper
+#svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/iptvhelper
 
 #sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 #sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
