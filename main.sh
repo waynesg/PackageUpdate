@@ -54,8 +54,8 @@ svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
 
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 
-#svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/luci-app-wrtbwmon-zh
-#svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/wrtbwmon
+svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/luci-app-wrtbwmon-zh
+svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/wrtbwmon
 
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-advanced
 
@@ -86,27 +86,27 @@ git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 
 # passwall
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/dns2socks
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ipt2socks
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/naiveproxy
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/kcptun
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/openssl1.1
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/shadowsocksr-libev
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/simple-obfs
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/v2ray-plugin
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/v2ray
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray-core
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/dns2socks
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ipt2socks
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/naiveproxy
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/kcptun
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/openssl1.1
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/shadowsocksr-libev
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/simple-obfs
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/v2ray-plugin
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/v2ray
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray-core
 
 #iptv
-#svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/luci-app-iptvhelper
-#svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/iptvhelper
+svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/luci-app-iptvhelper
+svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/iptvhelper
 
 #sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 #sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
