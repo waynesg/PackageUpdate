@@ -51,8 +51,8 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 
-svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
-svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
+#svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
+#svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
 
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 
