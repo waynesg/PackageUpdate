@@ -11,7 +11,6 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 git clone https://github.com/rosywrt/luci-theme-rosy
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
-git clone https://github.com/immortalwrt/luci-theme-tano
 
 # apps
 
@@ -42,49 +41,49 @@ svn co https://github.com/lisaac/luci-app-dockerman/trunk ./luci-app-dockerman
 svn co https://github.com/lisaac/luci-lib-docker/trunk ./luci-lib-docker
 #poweroff
 git clone https://github.com/esirplayground/luci-app-poweroff
-
+#netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
-
+#gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
-
+#OAF
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 
 #svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 #svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
-
+#eqos
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
-
+#wrtbwmon
 svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/luci-app-wrtbwmon-zh
 svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/wrtbwmon
-
+#advanced
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-advanced
-
+#cpulimited
 #svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit-ng
 #svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit
 #svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit
-
+#filebrowser
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser
-
+#autopoweroff
 #svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
-
+#timewol
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-timewol
-
+#weburl
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-weburl
-
+#webrestriction
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-webrestriction
-
+#godproxy
 git clone https://github.com/godros/luci-app-godproxy
-
+#pptp
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-pptp-vpnserver-manyusers
-
+#ipsec
 git clone https://github.com/waynesg/luci-app-ipsec-vpnserver-manyusers
-
+#unblockneteasemusic
 git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git
-
+#syncthing
 #svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-syncthing
-
+#serverchand
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 
 # passwall
