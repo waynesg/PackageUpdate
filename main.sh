@@ -85,6 +85,8 @@ git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git
 #svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-syncthing
 #serverchand
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
+#订阅转换subconverter
+svn co https://github.com/tindy2013/openwrt-subconverter/trunk ./openwrt-subconverter
 
 # passwall
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall
@@ -95,9 +97,9 @@ svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ipt2socks
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/naiveproxy
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/kcptun
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/openssl1.1
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/shadowsocksr-libev
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/shadowsocksr-libev
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/simple-obfs
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan
