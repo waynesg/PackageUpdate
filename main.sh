@@ -111,7 +111,7 @@ svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray-core
 
 #iptv
 svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/luci-app-iptvhelper
-#svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/iptvhelper
+svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/iptvhelper
 svn co https://github.com/riverscn/luci-app-omcproxy/branches/18.06 ./luci-app-omcproxy
 
 #sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
