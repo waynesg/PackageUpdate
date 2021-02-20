@@ -42,8 +42,10 @@ svn co https://github.com/lisaac/luci-lib-docker/trunk ./luci-lib-docker
 #poweroff
 git clone https://github.com/esirplayground/luci-app-poweroff
 #netdata
-#svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
-#svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
+svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
+svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
+#NetSpeedtest
+svn co https://github.com/sirpdboy/netspeedtest/trunk/luci-app-NetSpeedTest
 #gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
