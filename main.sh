@@ -46,6 +46,7 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
 #NetSpeedtest
 svn co https://github.com/sirpdboy/netspeedtest/trunk/luci-app-NetSpeedTest
+svn co https://github.com/sirpdboy/netspeedtest/trunk/NetSpeedTest
 #gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
