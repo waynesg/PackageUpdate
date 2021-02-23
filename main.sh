@@ -8,9 +8,9 @@ svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentomcat
 svn co https://github.com/sirpdboy/luci-theme-opentopd/trunk ./luci-theme-opentopd
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
-git clone https://github.com/rosywrt/luci-theme-rosy
+svn co https://github.com/rosywrt/luci-theme-rosy/trunk/luci-theme-rosy
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
+svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom
 
 # apps
 
