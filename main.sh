@@ -121,6 +121,7 @@ svn co https://github.com/riverscn/luci-app-omcproxy/branches/18.06 ./luci-app-o
 #ddnsto
 svn co https://github.com/linkease/ddnsto-openwrt/trunk/ddnsto
 svn co https://github.com/linkease/ddnsto-openwrt/trunk/luci-app-ddnsto
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-koolddns
 
 #sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 #sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
