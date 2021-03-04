@@ -58,8 +58,8 @@ svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 #eqos
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 #wrtbwmon
-svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/luci-app-wrtbwmon-zh
-svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/wrtbwmon
+#svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/luci-app-wrtbwmon-zh
+#svn co https://github.com/firker/luci-app-wrtbwmon-zh/trunk/wrtbwmon
 #advanced
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-advanced
 #cpulimited
