@@ -37,8 +37,7 @@ svn co https://github.com/jerrykuku/node-request/trunk ./node-request
 #autotimeset(自动重启，关机)
 git clone https://github.com/sirpdboy/luci-app-autotimeset
 #docker
-#svn co https://github.com/lisaac/luci-app-dockerman/trunk ./luci-app-dockerman
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-dockerman
+svn co https://github.com/lisaac/luci-app-dockerman/trunk ./luci-app-dockerman
 svn co https://github.com/lisaac/luci-lib-docker/trunk ./luci-lib-docker
 #poweroff
 git clone https://github.com/esirplayground/luci-app-poweroff
