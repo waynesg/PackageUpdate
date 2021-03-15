@@ -20,9 +20,10 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb ./lua-
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns ./smartdns
 svn co https://github.com/garypang13/openwrt-packages/trunk/tcping ./tcping
 #SSR-PLUS
-svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus ./luci-app-ssr-plus
-svn co https://github.com/fw876/helloworld/trunk/xray-core ./xray-core
-svn co https://github.com/fw876/helloworld/trunk/naiveproxy ./naiveproxy
+svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
+#svn co https://github.com/fw876/helloworld/trunk/xray-core ./xray-core
+#svn co https://github.com/fw876/helloworld/trunk/naiveproxy ./naiveproxy
+#svn co https://github.com/fw876/helloworld/trunk/shadowsocks-rust
 #DNSfilter
 svn co https://github.com/garypang13/luci-app-dnsfilter/trunk ./luci-app-dnsfilter
 #gowedav
@@ -92,26 +93,27 @@ svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverc
 svn co https://github.com/tindy2013/openwrt-subconverter/trunk ./openwrt-subconverter
 
 # passwall
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/dns2socks
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ipt2socks
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/microsocks
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/naiveproxy
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/kcptun
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/openssl1.1
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/main/pdnsd-alt
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/shadowsocksr-libev
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/simple-obfs
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/v2ray-plugin
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray-core
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray-plugin
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./luci-app-passwall
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/dns2socks
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ipt2socks
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/microsocks
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/naiveproxy
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/kcptun
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/openssl1.1
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/main/pdnsd-alt
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/shadowsocksr-libev
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/simple-obfs
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/v2ray-plugin
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray-core
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray-plugin
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/shadowsocks-rust
 
 #iptv
 svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/luci-app-iptvhelper
