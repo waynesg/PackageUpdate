@@ -130,6 +130,9 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/cdnspeedtest
 #homebridge
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-homebridge
 
+#AutoUpdate
+git clone https://github.com/Hyy2001X/luci-app-autoupdate
+
 #sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 #sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 
