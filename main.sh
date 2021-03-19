@@ -17,7 +17,7 @@ svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci
 #Bypass
 git clone https://github.com/garypang13/luci-app-bypass
 svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb ./lua-maxminddb
-svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns ./smartdns
+git clone hhttps://github.com/garypang13/smartdns-le
 svn co https://github.com/garypang13/openwrt-packages/trunk/tcping ./tcping
 #SSR-PLUS
 svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
