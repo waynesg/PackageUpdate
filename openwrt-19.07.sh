@@ -161,7 +161,7 @@ cat >> Update.md <<EOF
 luci-theme-atmaterial
 luci-theme-rosy
 luci-theme-edge
-luci-theme-infinityfreedom
+#luci-theme-infinityfreedom
 luci-app-bypass
 luci-app-filebrowser
 luci-app-gowebdav
