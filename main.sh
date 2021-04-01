@@ -64,7 +64,6 @@ svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 #advanced
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-advanced
 #cpulimited
-svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit-ng
 svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit
 #filebrowser
