@@ -45,8 +45,8 @@ git clone https://github.com/esirplayground/luci-app-poweroff
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
 #NetSpeedtest
-svn co https://github.com/sirpdboy/netspeedtest/trunk/luci-app-NetSpeedTest
-svn co https://github.com/sirpdboy/netspeedtest/trunk/speedtest
+svn co https://github.com/waynesg/netspeedtest/trunk/luci-app-NetSpeedTest
+svn co https://github.com/waynesg/netspeedtest/trunk/speedtest
 #gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
