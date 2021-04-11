@@ -125,7 +125,7 @@ svn co https://github.com/linkease/ddnsto-openwrt/trunk/luci-app-ddnsto
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-koolddns
 
 #CloudflareSppedtest
-svn co https://github.com/garypang13/openwrt-packages/trunk/cdnspeedtest
+git clone https://github.com/immortalwrt/openwrt-cdnspeedtest
 
 #homebridge
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-homebridge
