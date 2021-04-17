@@ -127,6 +127,9 @@ svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-koolddns
 #CloudflareSppedtest
 git clone https://github.com/immortalwrt/openwrt-cdnspeedtest
 
+#Pandownload-fake-server
+svn co https://github.com/garypang13/openwrt-packages/trunk/pandownload-fake-server
+
 #homebridge
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-homebridge
 
