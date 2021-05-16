@@ -53,6 +53,8 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 #OAF
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
+#OpenClash
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 
 #svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 #svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
