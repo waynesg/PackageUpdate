@@ -5,7 +5,7 @@ on:
   
   schedule:
 #   - cron: 50 15 * * *
-    - cron: 50 3 * * *
+    - cron: 50 1 * * *
 
 env: 
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
