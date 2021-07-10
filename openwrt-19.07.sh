@@ -23,8 +23,8 @@ svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
 #svn co https://github.com/fw876/helloworld/trunk/xray-core ./xray-core
 #svn co https://github.com/fw876/helloworld/trunk/naiveproxy ./naiveproxy
 #svn co https://github.com/fw876/helloworld/trunk/shadowsocks-rust
-#DNSfilter
-svn co https://github.com/garypang13/luci-app-dnsfilter/trunk ./luci-app-dnsfilter
+#adblock-plus
+svn co https://github.com/small-5/luci-app-adblock-plus/trunk ./luci-app-adblock-plus
 #gowedav
 svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
 svn co https://github.com/1715173329/gowebdav/trunk ./gowebdav
